@@ -7,3 +7,4 @@ name_length = str(length)
 print("your name length is " + name_length )
 print(60 + float(name_length))
 
+

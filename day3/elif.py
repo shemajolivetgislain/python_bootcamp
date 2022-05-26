@@ -11,6 +11,9 @@ if height > 120:
     elif age<=18:
         bill = 7
         print("You have to pay 7$")
+    elif age<=45 and age <= 55:
+        print(f"Your bill is 0")
+    
     else:
         bill = 12
         print("You have to pay 12$")

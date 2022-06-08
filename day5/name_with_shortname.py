@@ -8,7 +8,7 @@
 
 name_list = ["jolivet", "aa", "jiji"]  
 name_list_a = ""
-for char in name_list:
-    if name_list[char] == "a":
+for char in range(len(name_list)):
+    if name_list[char][1] == "o":
         name_list_a = name_list[char]
-        print(name_list_a) 
+print(name_list_a) 
